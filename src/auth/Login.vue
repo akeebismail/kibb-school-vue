@@ -29,9 +29,7 @@
                     </div>
                 </div>
                 <div class="login-content">
-                    <b-form>
-                        Login Form Here
-                    </b-form>
+
                 </div>
             </div>
         </div>

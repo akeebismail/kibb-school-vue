@@ -1,12 +1,12 @@
 <template>
     <div>
-        <b-alert show>
-            Default alert
-        </b-alert>
-        <b-alert variant="success" show>
-            Success
-        </b-alert>
+        <login></login>
     </div>
 </template>
 <script>
+    import Login from './auth/Login'
+    export default {
+        name :"app",
+        components: {Login}
+    }
 </script>
