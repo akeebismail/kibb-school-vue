@@ -1,0 +1,74 @@
+.page-with-right-sidebar .sidebar,
+.page-with-right-sidebar .sidebar-bg,
+.page-with-two-sidebar .sidebar-bg.sidebar-right,
+.page-with-two-sidebar .sidebar.sidebar-right {
+    right: 0;
+    left: auto
+}
+
+#page-loader,
+.page-sidebar-fixed .sidebar,
+.page-with-two-sidebar.page-sidebar-fixed .sidebar.sidebar-right {
+    position: fixed
+}
+.attached-document,
+.chats,
+.registered-users-list,
+.result-list,
+.sidebar .sub-menu,
+.theme-panel .theme-list,
+.timeline,
+.todolist,
+.top-menu .nav .sub-menu,
+.widget-chart-sidebar .chart-legend {
+    list-style-type: none
+}
+
+.btn.active:focus,
+.btn:active:focus,
+.btn:focus,
+a:focus {
+    outline: 0
+}
+
+body,
+html {
+    height: 100%
+}
+
+body {
+    background: #d9e0e7;
+    font-size: 12px;
+    font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #707478
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 500;
+    color: #242a30
+}
+
+h1 small,
+h2 small,
+h3 small,
+h4 small,
+h5 small,
+h6 small {
+    font-size: 60%;
+    font-weight: 300;
+    color: #7c7f83
+}
+
+a {
+    transition: color .1s ease-in-out;
+    -o-transition: color .1s ease-in-out;
+    -ms-transition: color .1s ease-in-out;
+    -moz-transition: color .1s ease-in-out;
+    -webkit-transition: color .1s ease-in-out
+}
